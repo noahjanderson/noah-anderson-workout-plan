@@ -32,19 +32,15 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Adding my photo
+## My photo
 
-The hero currently shows a dark gradient placeholder. To swap in the real photo:
+The hero photo is `assets/noah.webp` (800x1200, 2:3). To replace it, export a new 2:3 portrait as WebP under ~300 KB with the same file name:
 
-1. Crop to 4:5 portrait (e.g. 800x1000) and convert/compress to WebP, under ~300 KB:
-   ```sh
-   convert noah.jpg -resize 800x1000^ -gravity center -extent 800x1000 -quality 80 assets/noah.webp
-   ```
-2. In `index.html`, replace the `<div class="hero__placeholder" ...>...</div>` block with:
-   ```html
-   <img src="assets/noah.webp" alt="Noah in the gym" width="800" height="1000">
-   ```
-   (Adjust the alt text to describe the actual photo.) The angled orange frame is already styled.
+```sh
+convert new-photo.jpg -resize 800x1200^ -gravity center -extent 800x1200 -quality 80 assets/noah.webp
+```
+
+Update the `alt` text in `index.html` if the new photo looks different.
 
 ## Editing the routine
 
