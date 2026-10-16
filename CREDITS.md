@@ -16,4 +16,4 @@ All photos are self-hosted in `assets/` and come from [Wikimedia Commons](https:
 | `assets/rest.webp` | Sunday: Rest | Avolphoto | [A walking path in pine forest](https://commons.wikimedia.org/wiki/File:A_walking_path_in_pine_forest_taken_during_sprint.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | `assets/favicon.svg` | Browser tab icon | Original, made for this site | n/a | n/a |
 
-`assets/noah.webp` (once added) is my own photo and is not covered by the licenses above.
+`assets/noah.webp` is my own photo (background edited to a gym setting) and is not covered by the licenses above.
